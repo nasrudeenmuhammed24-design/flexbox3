@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+ display: flex;
+ gap: 16px;
+ align-items: center;
+ margin: 8px;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.notifications{
+    background-color: purple;
+    color: white;
+    padding: 3px 15px;
+    border-radius: 8px;
+}
+.logo{
+    color: purple;
+    font-size: 25px;
+    font-weight: 1000;
+}
+.left{
+    display: flex;
+    gap: 16px;
+}
+.profile-image{
+    background-color: purple;
+    border: none;
+    border-radius: 50px;
+    width: 35px;
+    height:35px;
+}
+.right{
+    display: flex;
+    gap: 10px;
+    height: 25px;
+    align-items: center;
+}
